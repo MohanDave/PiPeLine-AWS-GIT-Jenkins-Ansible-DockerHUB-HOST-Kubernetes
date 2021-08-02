@@ -46,3 +46,56 @@ aws s3 mb s3://clusters.dev.example.com
                              
                              
 aws s3 mb s3://mohandave.mohandave.in
+
+
+.After that we continued by setting the Environment Variable on the Bucket created
+
+
+export KOPS_STATE_STORE=s3://mohandave.mohandave.in
+
+
+.After that we generated a key for its linkage with the cluster which we were going to create using the command :-
+
+
+
+ssh-keygen
+
+
+
+
+.Followed by building/creating the cluster configuration using the following modifies command:-
+
+
+kops create cluster --zones=us-east-1c useast1.dev.example.com
+
+
+
+Finally configure your cluster with:
+
+
+kops update cluster useast1.dev.example.com --yes
+
+
+To delete your cluster:-
+
+
+
+
+
+kops delete cluster useast1.dev.example.com --yes
+
+
+
+
+
+
+kubernetes cluster that could be seen using the command 
+
+
+
+kubectl get nodes
+kops delete cluster useast1.dev.example.com --yes
+
+
+
+
