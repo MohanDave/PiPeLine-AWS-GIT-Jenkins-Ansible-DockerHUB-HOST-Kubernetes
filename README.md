@@ -13,8 +13,10 @@ This was our docker image file on the GITHUB repository provided by the develope
 ![image](https://user-images.githubusercontent.com/87275524/127894150-d82e7947-95b9-4091-9ddf-81b865df5476.png)
 (INITIAL POINT  OF OUR PIPELINE THE DOCKER FILE BY THE DEVELOPER ON THE GITHUB REPOSITORY)
 
-![image](https://user-images.githubusercontent.com/87275524/127894256-097acf88-ad56-4247-a6fe-ecb371aac9d7.png)
+![Screenshot (373)](https://user-images.githubusercontent.com/87275524/127895718-fbb56f42-e11a-48ea-87b4-70127154ba72.png)
  (FINAL DEPLOYMENT ON KUBERNETES CLUSTER WORKER NODE IN OUR PIPELINE)
+
+ 
 
 
 
